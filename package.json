@@ -1,0 +1,28 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social network for developer",
+  "license": "MIT",
+  "author": "Kent",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "config": "^4.1.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "request": "^2.88.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
